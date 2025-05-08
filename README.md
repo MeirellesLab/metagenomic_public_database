@@ -1,4 +1,4 @@
-# BIOME METAGENOMIC PUBLIC DATABASE
+# BIOME METAGENOMIC PUBLIC DATABASE CURATION
 
 **warning: None of the present data should be shared or used without the consent of the supervisor Dr. Pedro Meirelles.**  
 ### Introduction  
