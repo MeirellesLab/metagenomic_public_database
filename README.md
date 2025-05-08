@@ -66,13 +66,22 @@ Rscript R/treat_spliting.R
 Rscript R/merging_tables.R
 ```
 
+#### Clean from assembled samples
+
+Here we did a final check and removed the remaining assembled samples.
+
+```bash 
+Rscript R/removing_assembled.R
+
+```
 
 
+After this process we ended up with a database containing 3467 samples. 
 
 
+The pipeline to download and annotate the samples from public repositories are in: https://github.com/MeirellesLab/CM-Ferreira-et-al.-reprodutibility
 
-
-
+The procedures from this repository is done using the metadata tables and these metadata tables are used to filter the downloaded samples. 
 
 
 
