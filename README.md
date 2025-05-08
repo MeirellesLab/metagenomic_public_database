@@ -66,16 +66,7 @@ Rscript R/treat_spliting.R
 Rscript R/merging_tables.R
 ```
 
-#### Downloading sequences
 
-Missing step
-#### clean from assembled samples
-
-```bash 
-Rscript R/removing_assembled.R
-```
-
-### Troubleshooting
 
 
 
