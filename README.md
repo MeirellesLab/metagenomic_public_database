@@ -1,14 +1,13 @@
 # BIOME METAGENOMIC PUBLIC DATABASE CURATION
-
-**warning: None of the present data should be shared or used without the consent of the supervisor Dr. Pedro Meirelles.**  
-### Introduction  
   
-The BIOME metagenomic public database contains N?? metagenomic samples collected from MG-RAST and NCBI databases. The samples were recategorized based on two methods, the authoral BIOME classification and the IUCN classification.  
+## Introduction  
+  
+The BIOME metagenomic public database contains metagenomic samples collected from MG-RAST and NCBI databases. The samples were recategorized based on two methods, the authoral BIOME classification and the IUCN classification.  
 This database comprimises other works of the lab, such as:
 - [Aquifers Landscapes](https://github.com/MeirellesLab/aquifer_metagenomes)
 - [New Microbial Keystones](https://github.com/MeirellesLab/keystones_paper)
 
-### Data organization
+## Data organization
 - **The [data_processing](data_processing/) contains step-by-step used to process the data.**  
     - The data_processing folder is procedimental and used by the scripts to produce the ready-to-use data contained in all cited bellow.
     For more Details, please check the [readme](data_processing/README.md) file.  
@@ -16,7 +15,7 @@ This database comprimises other works of the lab, such as:
 - The [metadata](metadata/) contains the BIOME and IUCN classifications of these samples.   
 - The [summaries](summaries/) folder contains information about the samples, such as the number of reads, GC content, etc.
 
-### Data Presentation
+## Data Presentation
 
 ## Reproductibility
 
@@ -78,10 +77,24 @@ Rscript R/removing_assembled.R
 
 After this process we ended up with a database containing 3467 samples. 
 
-
 The pipeline to download and annotate the samples from public repositories are in: https://github.com/MeirellesLab/CM-Ferreira-et-al.-reprodutibility
 
 The procedures from this repository is done using the metadata tables and these metadata tables are used to filter the downloaded samples. 
+
+## Data availability and terms of use
+
+This repository holds curated metadata, taxonomic classifications and annotation
+tables derived from publicly archived metagenomes.
+
+**The underlying sequence data are public.** They were obtained from MG-RAST and the
+NCBI Sequence Read Archive and remain subject to the terms of those archives. Nothing
+here restricts your access to them.
+
+**The curation is our contribution.** The BIOME and IUCN reclassifications, the
+manual labelling, the Kraken2 abundance matrices and the per-sample summaries in this
+repository were produced by this laboratory. They are released for reuse, including
+reanalysis and redistribution, provided the source is credited.
+
 
 
 
